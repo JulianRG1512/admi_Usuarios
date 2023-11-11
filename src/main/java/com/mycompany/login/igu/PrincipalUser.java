@@ -46,7 +46,7 @@ public class PrincipalUser extends javax.swing.JFrame {
         });
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        jLabel1.setText("Modulo de Prueba");
+        jLabel1.setText("Vista Usuarios");
 
         tblusuarios.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

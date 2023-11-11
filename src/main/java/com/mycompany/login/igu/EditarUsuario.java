@@ -97,22 +97,22 @@ public class EditarUsuario extends javax.swing.JFrame {
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jblVer.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jblVer.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\Documents\\NetBeansProjects\\Prueba Interfaz\\Login\\img\\cerrado.png")); // NOI18N
+        jblVer.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\Documents\\Repositorio_Git\\Login\\img\\abierto.png")); // NOI18N
         jblVer.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jblVerMouseClicked(evt);
             }
         });
-        jPanel3.add(jblVer, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 40, 40));
+        jPanel3.add(jblVer, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 40, 40));
 
         jblOcultar.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jblOcultar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\Documents\\NetBeansProjects\\Prueba Interfaz\\Login\\img\\abierto.png")); // NOI18N
+        jblOcultar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\Documents\\Repositorio_Git\\Login\\img\\cerrado.png")); // NOI18N
         jblOcultar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jblOcultarMouseClicked(evt);
             }
         });
-        jPanel3.add(jblOcultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 40, 40));
+        jPanel3.add(jblOcultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 40, 40));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -135,13 +135,13 @@ public class EditarUsuario extends javax.swing.JFrame {
                                     .addComponent(txtContra)
                                     .addComponent(cmbRol, 0, 235, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(134, 134, 134)
                         .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(27, 27, 27)
                         .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(41, Short.MAX_VALUE))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -159,9 +159,9 @@ public class EditarUsuario extends javax.swing.JFrame {
                             .addComponent(jLabel3)
                             .addComponent(txtContra, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(53, 53, 53)
-                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(20, 20, 20)
+                        .addGap(44, 44, 44)
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(10, 10, 10)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(cmbRol, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -245,7 +245,6 @@ public class EditarUsuario extends javax.swing.JFrame {
         jblVer.setVisible(false);
         jblOcultar.setVisible(true);
         txtContra.setEchoChar((char)0);
-
     }//GEN-LAST:event_jblVerMouseClicked
 
     private void jblOcultarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jblOcultarMouseClicked

@@ -15,7 +15,7 @@ public class Login {
        
         try {
            // UIManager.setLookAndFeel( new FlatLightLaf() );
-            FlatCyanLightIJTheme.setup();
+            FlatDraculaIJTheme.setup();
             UIManager.put( "Button.arc", 999 );
             UIManager.put( "TextComponent.arc", 999 );
             UIManager.put( "Component.arc", 999 );
